@@ -22,4 +22,9 @@ public class Customer {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    // Stub methods to be filled later
+    public void validateCustomer() {
+        // Placeholder for future implementation
+    }
 }

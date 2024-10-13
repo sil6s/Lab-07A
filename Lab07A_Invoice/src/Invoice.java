@@ -14,8 +14,9 @@ public class Invoice {
         lineItems.add(item);
     }
 
+    // Stub method for calculating the total amount
     public double getTotalAmountDue() {
-        return lineItems.stream().mapToDouble(LineItem::getTotal).sum();
+        return 0.0; // Placeholder for future implementation
     }
 
     public void setCustomer(Customer customer) {
@@ -24,5 +25,10 @@ public class Invoice {
 
     public List<LineItem> getLineItems() {
         return lineItems;
+    }
+
+    // Stub methods to be filled later
+    public void printInvoice() {
+        // Placeholder for future implementation
     }
 }

@@ -7,23 +7,21 @@ public class LineItem {
         this.quantity = quantity;
     }
 
+    // Stub method for calculating the total price of the line item
     public double getTotal() {
-        return product.getUnitPrice() * quantity;
+        return 0.0; // Placeholder
     }
 
     public Product getProduct() {
         return product;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
-    }
-
     public int getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    // Stub method for printing line item details
+    public void printDetails() {
+        // Placeholder for future implementation
     }
 }

@@ -22,4 +22,9 @@ public class Product {
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
     }
+
+    // Stub method to validate product details
+    public void validateProduct() {
+        // Placeholder for future implementation
+    }
 }
